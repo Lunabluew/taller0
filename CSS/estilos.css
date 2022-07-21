@@ -62,4 +62,46 @@ nav{
     height: 3rem;
 }
 
+/*Sección features*/
+
+#features{
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/bg-features.png');
+    color: white;
+    padding-top: 1rem;
+}
+
+.feature-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.features-tittle{
+    background-color: rgba(0, 0, 0, 0.35);
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+}
+
+.feature{
+    text-align: center;
+    padding: 1rem;
+    min-width: 180px;
+    max-width: 250px;
+    border-radius: 5px;
+}
+
+.feature i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.feature-blue{
+    background-color: #00325eae;
+}
 
